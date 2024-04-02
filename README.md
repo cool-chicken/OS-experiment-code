@@ -1,4 +1,4 @@
-#Project 1—UNIX Shell and History Feature
+\big{Project 1—UNIX Shell and History Feature}
 ##This is the second experiment code for operating system learning
 This project consists of designing a C program to serve as a shell interface
 that accepts user commands and then executes each command in a separate
