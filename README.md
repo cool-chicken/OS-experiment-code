@@ -1,10 +1,10 @@
-\big{Project 1—UNIX Shell and History Feature}
-##This is the second experiment code for operating system learning
+# Project 1—UNIX Shell and History Feature
+## This is the second experiment code for operating system learning
 This project consists of designing a C program to serve as a shell interface
 that accepts user commands and then executes each command in a separate
 process. This project can be completed on any Linux, UNIX, or Mac OS X system.
 
-Part I— Creating a Child Process
+## Part I— Creating a Child Process
 The first task is to modify the main() function in Figure 3.36 so that a child
 process is forked and executes the command specified by the user. This will
 require parsing what the user has entered into separate tokens and storing the
@@ -23,7 +23,7 @@ be invoked as execvp(args[0], args). Be sure to check whether the user
 included an & to determine whether or not the parent process is to wait for the
 child to exit.
 
-Part II—Creating a History Feature
+## Part II—Creating a History Feature
 The next task is to modify the shell interface program so that it provides
 a history feature that allows the user to access the most recently entered
 commands. The user will be able to access up to 10 commands by using the
